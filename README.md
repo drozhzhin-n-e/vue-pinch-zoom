@@ -1,4 +1,4 @@
-# my-project-name2
+# Pinch zoom for Vue
 
 ## Project setup
 ```
