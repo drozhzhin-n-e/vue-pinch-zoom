@@ -1,7 +1,7 @@
 import {Touches} from './touches';
 
 export interface IvyPinchProperties {
-    element: string;
+    element: any;
     key ? : string;
     doubleTap ? : boolean;
     doubleTapScale ? : number;
