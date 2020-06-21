@@ -1,11 +1,11 @@
-export interface Properties {
+export interface Interfaces {
     "transition-duration"?: number;
     "double-tap"?: boolean;
     "double-tap-scale"?: number;
     "auto-zoom-out"?: boolean;
     "limit-zoom"?: number | "original image size";
     "disabled"?: number;
-    "element"?: any; 
+    "element"?: any;
     "disablePan"?: boolean;
     "overflow"?: "hidden" | "visible";
     "disableZoomControl"?: "disable" | "never" | "auto";
