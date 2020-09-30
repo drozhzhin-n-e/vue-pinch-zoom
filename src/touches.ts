@@ -159,7 +159,7 @@ export class Touches {
         }
 
         // Tap
-        this.detectTap();
+        this.detectTap(event);
 
         this.runHandler("touchend", event);
         this.eventType = 'touchend';
@@ -225,7 +225,7 @@ export class Touches {
     handleMouseup = (event: any) => {
 
         // Tap
-        this.detectTap();
+        this.detectTap(event);
 
         this.isMousedown = false;
         this.runHandler("mouseup", event);
@@ -281,7 +281,7 @@ export class Touches {
         this.lastTap = currentTime;
     }
 
-    detectTap(): void {
+    detectTap(event: any): void {
         if (this.eventType != undefined) {
             return;
         }
